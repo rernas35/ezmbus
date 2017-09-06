@@ -12,6 +12,7 @@ public abstract class AbstractEzMBusContext<L> {
 
 	@PreDestroy
 	public void dispose() {
+		
 		disposeInternal();
 	}
 	

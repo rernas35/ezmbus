@@ -7,6 +7,7 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>ezmbus-maven-plugin</artifactId>
+	<packaging>maven-plugin</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.maven</groupId>
@@ -75,7 +76,7 @@
 				<artifactId>maven-plugin-plugin</artifactId>
 				<version>3.5</version>
 				<configuration>
-					<goalPrefix>maven-dcjb-aspect-plugin</goalPrefix>
+					<goalPrefix>ezmbus-maven-plugin</goalPrefix>
 					<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
 				</configuration>
 				<executions>

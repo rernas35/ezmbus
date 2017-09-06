@@ -10,5 +10,6 @@
   	<module>ezmbus-hazelcast</module>
   	<module>ezmbus-kafka</module>
   	<module>ezmbus-maven-plugin</module>
+  	<module>samples</module>
   </modules>
 </project>
